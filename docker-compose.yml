@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app:
+    image: golang:1.9-alpine
+    volumes:
+      - .:/go/src/app
+    working_dir: /go/src/app
+    command: go run main.go
+    ports:
+      - "8080:8080"
