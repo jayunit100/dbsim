@@ -77,7 +77,6 @@ func (m *DefaultTopic) GetPublishers() map[string]int64 {
 }
 
 func (m *DefaultTopic) Start() {
-
 	for {
 		select {
 			case msg1 := <-m.Event:
@@ -87,5 +86,3 @@ func (m *DefaultTopic) Start() {
 		}
         }
 }
-
-
