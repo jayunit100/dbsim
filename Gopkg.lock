@@ -143,6 +143,14 @@
   version = "v0.3.2"
 
 [[projects]]
+  digest = "1:aaaf33c312d07806c150cabe356f2038a36f40d78d587fca2da1690b6727bde8"
+  name = "gopkg.in/confluentinc/confluent-kafka-go.v1"
+  packages = ["kafka"]
+  pruneopts = ""
+  revision = "ecccefd9ca31c656bd33471dc0d9293fcf3de99b"
+  version = "v1.0.0"
+
+[[projects]]
   digest = "1:cedccf16b71e86db87a24f8d4c70b0a855872eb967cb906a66b95de56aefbd0d"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
@@ -157,6 +165,7 @@
     "github.com/gorilla/mux",
     "github.com/sirupsen/logrus",
     "github.com/spf13/viper",
+    "gopkg.in/confluentinc/confluent-kafka-go.v1/kafka",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
